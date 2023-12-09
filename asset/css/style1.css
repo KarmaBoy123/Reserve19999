@@ -1,0 +1,293 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+body {
+    overflow-x:hidden;
+}
+
+#main{
+
+}
+
+#header_vi-container{
+    position: relative;
+}
+
+.video-background{
+ 
+}
+
+
+#header{
+    height: 60px;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0, 0 ,0, 0));
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#nav li{
+    display: inline-block;
+}
+
+#nav li a{
+    text-decoration: none;
+    color: #ad9b88;
+    line-height: 60px;
+    padding: 12px 35px;
+    font-size: 13px;
+}
+
+#nav li:hover a{
+    color: #ce6836;
+}
+
+#header .ti-icon{
+    align-content: center;
+    line-height: 60px;
+    width: 25px;
+    height: 25px;
+    margin: 16px 20px;
+}
+
+#header .share-button{
+    display: flex;
+    margin: 0 55px 0 70px;
+}
+
+#header .logo-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 16px 90px;
+}
+
+.logo{
+    line-height: 60px;
+    width:  110px;
+    height: 34.65px;
+}
+
+#content{
+    height: 1240px;
+    /* height: 1200px; */
+    background-color: black;
+    /* background:url(/asset/img/img-background/BG.png) center/cover no-repeat; */
+}
+
+.video-background{
+    display: block;
+}
+
+.news_container{
+    height: 620px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.news_items{
+    float: left;
+    width: 50%;
+    padding: 0 20px;
+}
+
+.news_img{
+    width: 100%;
+    border-radius: 0 30px 0 0;
+    box-shadow:1px 0 0.5px #535853;
+}
+
+h1{
+    color: #e9dccd;
+}
+
+.heading{
+    width: 141px;
+    height: 55px;
+}
+
+#content .nav{
+    color:#bba893;
+    list-style-type: none;
+    padding-top: 24px;
+}
+
+#content .nav li {
+    display: inline-block;
+    width: 100%;
+    height: 55px;
+    border-bottom: #473c31 solid 1px;
+    font-size: 14px;
+}
+
+#content .nav li a{
+    line-height: 55px;
+}
+
+.nav li a:hover a{
+    color:#e9dccd;
+    cursor: pointer;
+}
+
+.status p{
+    font: 10.6px;
+    color: #ce6836;
+}
+
+.status{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#content .video_container{
+    width: 100%;
+    height: 620px;
+    padding: 20px 20px;
+    margin: 0 50px;
+}
+
+.ad_container{
+    width: 60%;
+    padding-right: 30px;
+    position: relative;
+    flex:6;
+}
+
+.ad_img{
+    width: 100%;
+    border-radius: 0 20% 0 20%;
+}
+
+.infor_container{
+    width: 40%;
+    height: 450px;
+    flex: 4;
+}
+
+.vid_infor_items{
+    /* float: left;
+    display: inline-block; */
+}
+
+.des_container{
+    height: 294px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.des_title_conatiner{
+    height: 63px;
+    position: relative;
+}
+
+.signature{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 63px;
+}
+
+.des_title_conatiner .des_title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 44px;
+    color: #e9dccd;
+    padding:0;
+    line-height: 63px;
+}
+
+.infor_container p{
+    padding-top: 30px;
+    color:#bba893;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 24px;
+}
+.swiper_container{
+    padding-top: 10px;
+    margin: 0 -30px;
+}
+
+.swiper_items{
+    display: inline-block;
+    width: 120px;
+    margin: 0 20px;
+}
+
+.swiper_items .items_img{
+    width: 120px;
+    height: 120x;
+    border-radius: 30px 0 0 0;
+    opacity: 0.7;
+}
+
+.swiper_items .title{
+    text-align: center;
+    padding-top: 0;
+    font-size: 12px;
+}
+
+.swiper_items .items_img:hover{
+    opacity: 1;
+}
+
+button{
+
+}
+
+.play_button{
+    background: none;
+    border: none;
+    width: 80px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.module{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.video_p_container{
+    width: 80%;
+    margin: auto auto;
+    line-height: 620px;
+
+}
+
+.ver2{
+    width: 100%;
+}
+
+.open{
+    display:block;
+}
+
+.video-infor-container{
+    width: 100%;
+    display: flex;
+}
+
