@@ -159,14 +159,14 @@ h1{
     padding: 20px 20px 70px 20px;
 }
 
-.ad_container{
+.ver1.2_container{
     width: 60%;
     padding-right: 30px;
     position: relative;
     flex:6;
 }
 
-.ad_img{
+.ver1.2_img{
     width: 100%;
     border-radius: 0 20% 0 20%;
 }
